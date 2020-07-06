@@ -1,0 +1,65 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: nue Helvetica W01 ;
+    color: black;
+}
+
+.container-fluid{
+    display: flex;
+    margin-top: 25%;
+    align-items: center;
+    
+    
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-md {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+
+.text-camel{
+    opacity: 0;
+    &:hover{
+        opacity: 1;
+    }    
+}
+
+.Home-camel{
+    opacity: 1;
+    &:hover{
+        opacity: 0.3;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+

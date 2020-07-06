@@ -1,0 +1,17 @@
+<div class="container-fluid">
+    <div class="row">
+        {% for item in site.data.Acceuil %}
+
+        <div class="col-md ">
+            <a href="{{ item.link }}" class="Home-camel">
+                <img src="/assets/img/camel.svg">
+                <span class="text-camel">{{item.name}}</span>
+            </a>
+
+        </div>
+
+        {% endfor %}
+
+
+    </div>
+</div>
